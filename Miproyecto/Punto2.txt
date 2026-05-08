@@ -1,0 +1,11 @@
+# Taller de Compilación - Punto 2
+
+## Cuadro Comparativo: Make vs. CMake
+
+| Característica | Make | CMake |
+| :--- | :--- | :--- |
+| **Definición** | Herramienta que ejecuta comandos de compilación (el "obrero"). | Generador de sistemas que crea los planes de construcción (el "arquitecto"). |
+| **Portabilidad** | Baja: Un Makefile de Linux no sirve en Windows fácilmente. | Alta: El mismo CMakeLists.txt funciona en cualquier sistema operativo. |
+| **Sintaxis** | Basada en tabulaciones y comandos de consola (compleja). | Basada en un lenguaje de scripts de alto nivel (más legible). |
+| **Organización** | Tiende a mezclar archivos generados con el código fuente. | Permite "Out-of-source builds", dejando todo lo generado en la carpeta /build. |
+| **Ventaja** | Ideal para proyectos pequeños y rápidos. | Ideal para proyectos grandes y profesionales con múltiples carpetas. |
